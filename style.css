@@ -1,126 +1,57 @@
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* BACKGROUND GELAP LEMBUT */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #2e2b28; /* coklat tua lembut */
-    color: #d9cdc3; /* warna teks krem */
-    padding: 30px;
-    min-height: 100vh;
+    font-family: Arial;
+    background: #f5f1e6;
 }
 
-/* CONTAINER */
 .container {
-    max-width: 900px;
+    width: 60%;
     margin: auto;
-}
-
-/* JUDUL */
-h1 {
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 25px;
-    color: #f0e6db;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
 }
 
-/* CARD */
+h1 {
+    color: #5a3e2b;
+}
+
 .card {
-    background: #433a36; /* coklat keabu-abuan */
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.7);
-    transition: 0.3s ease;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.card:hover {
-    box-shadow: 0 0 20px #b2957b;
-    transform: translateY(-5px);
-}
-
-/* INPUT */
-input {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    border-radius: 8px;
-    border: 1px solid #7a6b5d;
-    background: #5e534a;
-    color: #e1d7cc;
-    font-size: 14px;
-    outline: none;
-    transition: border-color 0.3s ease;
-}
-
-input:focus {
-    border-color: #b2957b;
-    background: #6f6052;
-}
-
-/* BUTTON */
-button {
-    width: 100%;
-    padding: 12px;
-    margin-top: 15px;
-    border-radius: 8px;
-    border: none;
-    background: linear-gradient(90deg, #a67c52, #b2957b);
-    color: #2e2b28;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s ease;
-    box-shadow: 0 0 5px #b2957b88;
-}
-
-button:hover {
-    background: linear-gradient(90deg, #b2957b, #a67c52);
-    box-shadow: 0 0 15px #b2957bcc;
-    transform: scale(1.05);
-}
-
-/* TABLE */
 table {
     width: 100%;
+    margin-top: 10px;
     border-collapse: collapse;
-    margin-top: 15px;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 th {
-    background: #6f6052;
-    padding: 12px;
-    color: #f0e6db;
-    text-align: center;
+    background: #8b5e3c;
+    color: white;
 }
 
-td {
+td, th {
     padding: 10px;
-    background: #5e534a;
-    color: #d9cdc3;
-    text-align: center;
-    border-bottom: 1px solid #433a36;
+    border: 1px solid #ddd;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-tr:hover td {
-    background: #7a6b5d;
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
 }
 
-/* LINK */
-a {
-    display: inline-block;
-    margin-top: 15px;
-    color: #b2957b;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #d9cdc3;
-    text-decoration: underline;
+button {
+    background: #5a3e2b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
